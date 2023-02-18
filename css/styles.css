@@ -325,7 +325,6 @@ footer {
     height: 302px;
     background-color: #383838;
     color: #fff;
-    justify-content: center;
 }
 
 footer p {
@@ -335,9 +334,14 @@ footer p {
     text-align: center;
 }
 
+.footer-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .social-media {
     padding-top: 28px;
-    padding-left: 50px;
     padding-bottom: 38px;
     font-size: 14px;
     display: flex;
@@ -352,7 +356,6 @@ footer p {
     font-size: 14px;
     display: flex;
     text-align: center;
-    padding-left: 30px;
 }
 
 .terms-services li {
@@ -361,4 +364,12 @@ footer p {
 
 @media (min-width: 768px) {
 
+    .footer-class {
+        width: 100%;
+        max-width: 990px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 74px;
+        margin: 0 auto;
+    }
 }
