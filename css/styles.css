@@ -372,4 +372,13 @@ footer p {
         padding-top: 74px;
         margin: 0 auto;
     }
+
+    .navegation {
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        font-size: 14px;
+        color: #fff;
+        padding-left: 482px;
+    }
 }
